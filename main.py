@@ -29,4 +29,4 @@ results = results[nam.isin(nam[nam.duplicated()])].sort_index()
 results = results.reset_index()
 
 
-results.to_excel('Output.xlsx')
+results.to_excel(r'C:\Users\Station\PycharmProjects\pythonProject\vendorcode\Output.xlsx')
