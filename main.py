@@ -1,10 +1,10 @@
 import pandas as pd
 
 #read excel files to dataframes
-df = pd.read_excel(r'COGS_dataframe.xlsx')
-df1 = pd.read_excel(r'Class_dict.xlsx')
+df = pd.read_excel(r'C:\Users\Station\PycharmProjects\pythonProject\vendorcode\COGS_dataframe.xlsx')
+df1 = pd.read_excel(r'C:\Users\Station\PycharmProjects\pythonProject\vendorcode\Class_dict.xlsx')
 
-df2 = pd.read_excel(r'income_df.xlsx')
+df2 = pd.read_excel(r'C:\Users\Station\PycharmProjects\pythonProject\vendorcode\income_df.xlsx')
 
 #concat cogs and income so that class and job name are same column 
 df5 = pd.concat([df,df2],sort=False)
